@@ -1,5 +1,9 @@
 # Kakao Login APi for Javascript and Coffeescript
 
-> ##Install
+> ##Installation
 
-1. npm install
+#### nodemodule install
+
+```sh
+$ npm install
+```
