@@ -21,7 +21,7 @@ gulp.task('coffee', function() {
 gulp.task('uglify', function() {
   gulp.src(['dev/kakao.login.js'])
     .pipe(uglify())
-    .pipe(gulp.dest('dist/js/uglify'))
+    .pipe(gulp.dest(' dist/js/uglify'))
 });
 
 gulp.task('git-check', function(done) {
