@@ -19,7 +19,7 @@ gulp.task('coffee', function() {
 });
 
 gulp.task('uglify', function() {
-  gulp.src(['kakao.login.js'])
+  gulp.src(['dev/kakao.login.js'])
     .pipe(uglify())
     .pipe(gulp.dest('dist/js/uglify'))
 });
