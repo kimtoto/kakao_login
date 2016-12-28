@@ -1,0 +1,23 @@
+{
+  "name": "kakao",
+  "version": "1.0.0",
+  "description": "kakao javascript login source",
+  "main": "kakao.login.js",
+  "scripts": {
+    "test": ":)"
+  },
+  "keywords": [
+    "kakaologin"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.3",
+    "gulp-jshint": "^2.0.4",
+    "gulp-uglifyjs": "^0.6.2",
+    "jshint": "^2.9.4",
+    "gulp-util": "^2.2.14",
+    "shelljs": "^0.3.0"
+  }
+}
